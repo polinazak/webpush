@@ -1,0 +1,5 @@
+{
+  "permissions": [ "activeTab" ],
+  "name": "https://polzar.github.io/web_push_test",
+  "display": "standalone"
+}
