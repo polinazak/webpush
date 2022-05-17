@@ -1,0 +1,5 @@
+{
+  "permissions": [ "activeTab" ],
+  "name": "https://polinazak.github.io/webpush",
+  "display": "standalone"
+}
