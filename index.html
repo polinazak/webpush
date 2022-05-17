@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head>
+<body>
+    <p>Hello, world</p>
+    <script src="https://pxl.polina-zakaryan.dev.altkraft.com/ak_container.js?id=MXw0OQ.." ></script>
+
+    <button id="init_sub">Подписаться на уведомления</button>
+ 
+    <script>
+        document.getElementById('init_sub').addEventListener('click', function() { // По клику на кнопку..
+        try {
+                var akPush = new AKPush();
+                akPush.initSubscription() // ..показать форму подписки
+            }
+        catch (e) {
+            console.log(e); // Или записать ошибку в консоль браузера
+        }
+    });
+</script>
+</body>
+</html>
